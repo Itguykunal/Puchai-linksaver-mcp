@@ -474,19 +474,23 @@ async def main():
         # Add a small delay to ensure proper initialization
         await asyncio.sleep(0.1)
         
+        # Use Railway's PORT environment variable, fallback to 8085
+        port = int(os.environ.get("PORT", 8085))
+        
         await mcp.run_async(
             "streamable-http",
             host="0.0.0.0",
-            port=8085,
+            port=port,
         )
     except Exception as e:
         print(f"Server error (but continuing): {e}")
         # Fallback: try again with basic configuration
         try:
+            port = int(os.environ.get("PORT", 8085))
             await mcp.run_async(
                 "streamable-http",
-                host="127.0.0.1",
-                port=8085,
+                host="0.0.0.0",
+                port=port,
             )
         except Exception as e2:
             print(f"Fallback also failed: {e2}")
