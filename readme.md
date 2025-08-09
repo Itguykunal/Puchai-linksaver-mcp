@@ -60,35 +60,88 @@ Request:
 
 ---
 
-## Example Conversation
+## Example Conversation (CRUD Operations)
 
-**You:**  
-> Save this link: https://claude.ai with title "Claude AI" and description "AI assistant"
+Here’s how interacting with **Puchai-linksaver-mcp** looks in a real chat with Puch AI:
 
-**Puch AI:**  
-✅ Link added successfully!  
-ID: 1  
-Title: Claude AI  
-URL: https://claude.ai  
+---
 
-**You:**  
+**You:**
+
+> Save this link: [https://leetcode.com/problems/subarray-sum-equals-k/description/](https://leetcode.com/problems/subarray-sum-equals-k/description/) with title "leetcode" and description "solve this question before 12th Aug"
+
+**Puch AI:**
+✅ Link added successfully!
+**ID:** 1
+**Title:** leetcode
+**URL:** [https://leetcode.com/problems/subarray-sum-equals-k/description/](https://leetcode.com/problems/subarray-sum-equals-k/description/)
+**Description** solve this question before 12th Aug
+
+---
+
+**You:**
+
+> Save this link: [https://github.com/TurboML-Inc/mcp-starter?tab=readme-ov-file](https://github.com/TurboML-Inc/mcp-starter?tab=readme-ov-file)
+
+**Puch AI:**
+✅ Link added successfully!
+**ID:** 2
+**Title:** Link 2
+**URL:** [https://github.com/TurboML-Inc/mcp-starter?tab=readme-ov-file](https://github.com/TurboML-Inc/mcp-starter?tab=readme-ov-file)
+
+---
+
+**You:**
+
 > Show me all my links
 
-**Puch AI:**  
-📋 **Saved Links:**  
-1. Claude AI  
-   🔗 https://claude.ai  
-   📝 AI assistant  
-   📅 Created: 2025-08-09 12:30:45  
+**Puch AI:**
+📋 **Your saved links:**
 
-**You:**  
-> Update link 1 with description "Best AI assistant ever"
-
-**Puch AI:**  
-✅ Link updated successfully!  
+```
 ID: 1  
-Title: Claude AI  
-URL: https://claude.ai  
+Title: leetcode  
+URL: https://leetcode.com/problems/subarray-sum-equals-k/description/  
+Description: solve this question before 12th Aug  
+Created: 2025-08-09
+
+ID: 2  
+Title: Link 2  
+URL: https://github.com/TurboML-Inc/mcp-starter?tab=readme-ov-file  
+Created: 2025-08-09
+
+Total: 2 links
+```
+
+---
+
+**You:**
+
+> Update link 1 with https://github.com
+
+**Puch AI:**
+✅ Link updated successfully!
+**ID:** 1
+**Title:** leetcode
+**URL:** [https://github.com](https://github.com)
+
+---
+
+**You:**
+
+> Delete link 2
+
+**Puch AI:**
+🗑️ Link deleted successfully!
+
+---
+
+This example shows how easy it is to add, view, update, delete, and fetch links using natural language with Puch AI and your Link Saver MCP server!
+
+---
+
+Would you like me to help integrate this section into your full README?
+ 
 
 ---
 
