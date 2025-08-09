@@ -11,7 +11,7 @@ To start using the Link Saver MCP on Puch AI, use this command in chat:
 
 ```
 
-/mcp use wHeThy0jj5
+/mcp use eLt2pGMdOu
 
 ````
 
