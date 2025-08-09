@@ -1,6 +1,3 @@
-Got it! Here’s the updated README with that usage instruction included:
-
-```markdown
 # Puchai-linksaver-mcp
 
 A Python MCP server tool to save, manage, and fetch web links using Puch AI’s MCP framework.  
@@ -112,8 +109,3 @@ URL: https://claude.ai
 ---
 
 Made with ❤️ using Puch AI MCP framework.
-
-```
-
-Let me know if you want it as a file or any other changes!
-```
