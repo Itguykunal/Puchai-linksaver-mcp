@@ -185,13 +185,10 @@ This example shows how easy it is to add, view, update, delete, and fetch links 
 
 5. Use the ngrok URL (https://example.ngrok.io) in your Puch AI MCP usage, for example:
 
-
-6. Connect Puch AI to this MCP server and start chatting!
-
 ```bash
 
     /mcp connect https://example.ngrok.io <bearer_token>
-    
+
 ```
 
 ---
