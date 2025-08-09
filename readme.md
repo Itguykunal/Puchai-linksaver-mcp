@@ -4,6 +4,24 @@ A Python MCP server tool to save, manage, and fetch web links using Puch AI’s 
 Supports adding, listing, updating, and deleting links with markdown content extraction.
 
 ---
+## How to Use on Puch AI
+
+To start using the Link Saver MCP on Puch AI, use this command in chat:
+
+
+``` /mcp use wHeThy0jj5 ````
+
+or
+
+```
+
+[https://puch.ai/mcp/wHeThy0jj5](https://puch.ai/mcp/wHeThy0jj5)
+
+````
+
+Anyone can connect using this command and start saving and managing links!
+
+---
 
 ## How to Use Your Link Saver Tools
 
@@ -38,20 +56,6 @@ Request:
 - Fetch content from https://news.ycombinator.com  
 - Get the content from puch.ai/mcp  
 - Show me what's on https://example.com  
-
----
-
-## How to Use on Puch AI
-
-To start using the Link Saver MCP on Puch AI, use this command in chat:
-
-```
-
-/mcp use wHeThy0jj5 [https://puch.ai/mcp/wHeThy0jj5](https://puch.ai/mcp/wHeThy0jj5)
-
-````
-
-Anyone can connect using this command and start saving and managing links!
 
 ---
 
