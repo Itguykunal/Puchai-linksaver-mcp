@@ -73,8 +73,11 @@ Here’s how interacting with **Puchai-linksaver-mcp** looks in a real chat with
 **Puch AI:**
 ✅ Link added successfully!
 **ID:** 1
+
 **Title:** leetcode
+
 **URL:** [https://leetcode.com/problems/subarray-sum-equals-k/description/](https://leetcode.com/problems/subarray-sum-equals-k/description/)
+
 **Description** solve this question before 12th Aug
 
 ---
@@ -85,8 +88,11 @@ Here’s how interacting with **Puchai-linksaver-mcp** looks in a real chat with
 
 **Puch AI:**
 ✅ Link added successfully!
+
 **ID:** 2
+
 **Title:** Link 2
+
 **URL:** [https://github.com/TurboML-Inc/mcp-starter?tab=readme-ov-file](https://github.com/TurboML-Inc/mcp-starter?tab=readme-ov-file)
 
 ---
@@ -121,8 +127,11 @@ Total: 2 links
 
 **Puch AI:**
 ✅ Link updated successfully!
+
 **ID:** 1
+
 **Title:** leetcode
+
 **URL:** [https://github.com](https://github.com)
 
 ---
@@ -132,6 +141,7 @@ Total: 2 links
 > Delete link 2
 
 **Puch AI:**
+
 🗑️ Link deleted successfully!
 
 ---
