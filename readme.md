@@ -17,11 +17,11 @@ To start using the Link Saver MCP on Puch AI, use this command in chat:
 
 or
 
-```
 
-[https://puch.ai/mcp/wHeThy0jj5](https://puch.ai/mcp/wHeThy0jj5)
 
-````
+https://puch.ai/mcp/wHeThy0jj5
+
+
 
 Anyone can connect using this command and start saving and managing links!
 
