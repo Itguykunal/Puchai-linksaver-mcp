@@ -163,23 +163,36 @@ This example shows how easy it is to add, view, update, delete, and fetch links 
 
 1. Install dependencies (e.g., via `pip install -r requirements.txt`)  
 2. Run the server:  
-   ```bash
+
+```bash
+
    python links_mcp.py
-````
+
+```
 3. In a new terminal, run ngrok to expose port 8085:
-   ```bash
+
+```bash
+
     ngrok http 8085
-````
-4. Ngrok will show a public forwarding URL like:                   
-   ```nginx
+```
+4. Ngrok will show a public forwarding URL like: 
+
+```nginx
+
      https://example.ngrok.io -> http://localhost:8085
-````
+
+```
+
 5. Use the ngrok URL (https://example.ngrok.io) in your Puch AI MCP usage, for example:
 
+
 6. Connect Puch AI to this MCP server and start chatting!
-   ```bash
+
+```bash
+
     /mcp connect https://example.ngrok.io <bearer_token>
-````
+    
+```
 
 ---
 
