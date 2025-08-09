@@ -9,7 +9,11 @@ Supports adding, listing, updating, and deleting links with markdown content ext
 To start using the Link Saver MCP on Puch AI, use this command in chat:
 
 
-``` /mcp use wHeThy0jj5 ````
+```
+
+/mcp use wHeThy0jj5
+
+````
 
 or
 
