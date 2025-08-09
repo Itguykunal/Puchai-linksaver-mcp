@@ -146,12 +146,7 @@ Total: 2 links
 
 ---
 
-This example shows how easy it is to add, view, update, delete, and fetch links using natural language with Puch AI and your Link Saver MCP server!
-
----
-
-Would you like me to help integrate this section into your full README?
- 
+This example shows how easy it is to add, view, update, delete, and fetch links using natural language with Puch AI and your Link Saver MCP server! 
 
 ---
 
@@ -164,16 +159,28 @@ Would you like me to help integrate this section into your full README?
 
 ---
 
-## Setup & Run
+## For developement - Setup & Run
 
 1. Install dependencies (e.g., via `pip install -r requirements.txt`)  
 2. Run the server:  
    ```bash
-   python your_script_name.py
+   python links_mcp.py
 ````
+3. In a new terminal, run ngrok to expose port 8085:
+   ```bash
+    ngrok http 8085
+````
+4. Ngrok will show a public forwarding URL like:                   
+   ```nginx
+     https://example.ngrok.io -> http://localhost:8085
+````
+5. Use the ngrok URL (https://example.ngrok.io) in your Puch AI MCP usage, for example:
 
-3. Connect Puch AI to this MCP server and start chatting!
+6. Connect Puch AI to this MCP server and start chatting!
+   ```bash
+    /mcp connect https://example.ngrok.io <bearer_token>
+````
 
 ---
 
-Made with ❤️ using Puch AI MCP framework.
+By itguykunal
